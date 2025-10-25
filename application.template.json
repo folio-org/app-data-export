@@ -6,19 +6,22 @@
   "dependencies": [
     {
       "name": "app-platform-complete",
-      "version": "^2.0.0"
+      "version": "^2.0.0",
+      "preRelease": "false"
     }
   ],
   "modules": [
     {
       "name": "mod-data-export",
-      "version": "latest"
+      "version": "latest",
+      "preRelease": "false"
     }
   ],
   "uiModules": [
     {
       "name": "folio_data-export",
-      "version": "latest"
+      "version": "latest",
+      "preRelease": "false"
     }
   ]
 }
