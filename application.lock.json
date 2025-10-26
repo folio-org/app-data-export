@@ -1,6 +1,6 @@
 {
   "name": "app-data-export",
-  "version": "1.0.0-SNAPSHOT.100100000000000",
+  "version": "1.0.0-SNAPSHOT.100100000000010",
   "description": "Application descriptor for the data export application",
   "platform": "base",
   "dependencies": [
