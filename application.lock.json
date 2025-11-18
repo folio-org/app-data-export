@@ -1,6 +1,6 @@
 {
   "name": "app-data-export",
-  "version": "1.0.0-SNAPSHOT.100200000000588",
+  "version": "1.0.0-SNAPSHOT.100200000000876",
   "description": "Application descriptor for the data export application",
   "platform": "base",
   "dependencies": [
@@ -12,7 +12,7 @@
   "modules": [
     {
       "name": "mod-data-export",
-      "version": "5.3.0-SNAPSHOT.492"
+      "version": "5.3.0-SNAPSHOT.493"
     }
   ],
   "uiModules": [
