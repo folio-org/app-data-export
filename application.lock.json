@@ -1,6 +1,6 @@
 {
   "name": "app-data-export",
-  "version": "1.0.0-SNAPSHOT.100200000001566",
+  "version": "1.0.0-SNAPSHOT.100200000001580",
   "description": "Application descriptor for the data export application",
   "platform": "base",
   "dependencies": [
@@ -18,7 +18,7 @@
   "uiModules": [
     {
       "name": "folio_data-export",
-      "version": "7.0.1099000000000139"
+      "version": "7.0.1099000000000142"
     }
   ]
 }
