@@ -1,12 +1,12 @@
 {
-  "id" : "app-data-export-1.1.0-SNAPSHOT.100200000009310",
+  "id" : "app-data-export-1.1.0-SNAPSHOT.100200000009386",
   "name" : "app-data-export",
-  "version" : "1.1.0-SNAPSHOT.100200000009310",
+  "version" : "1.1.0-SNAPSHOT.100200000009386",
   "description" : "Application descriptor for the data export application",
   "modules" : [ {
-    "id" : "mod-data-export-5.5.0-SNAPSHOT.2674",
+    "id" : "mod-data-export-5.5.0-SNAPSHOT.2679",
     "name" : "mod-data-export",
-    "version" : "5.5.0-SNAPSHOT.2674"
+    "version" : "5.5.0-SNAPSHOT.2679"
   } ],
   "uiModules" : [ {
     "id" : "folio_data-export-7.1.1099000000000329",
@@ -35,7 +35,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-data-export-5.5.0-SNAPSHOT.2674",
+    "id" : "mod-data-export-5.5.0-SNAPSHOT.2679",
     "name" : "Data Export Module",
     "requires" : [ {
       "id" : "source-storage-source-records",
@@ -441,7 +441,7 @@
       "visible" : false
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-data-export:5.5.0-SNAPSHOT.2674",
+      "dockerImage" : "folioci/mod-data-export:5.5.0-SNAPSHOT.2679",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
