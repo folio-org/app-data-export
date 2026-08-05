@@ -1,12 +1,12 @@
 {
-  "id" : "app-data-export-1.1.0-SNAPSHOT.100200000009497",
+  "id" : "app-data-export-1.1.0-SNAPSHOT.100200000009575",
   "name" : "app-data-export",
-  "version" : "1.1.0-SNAPSHOT.100200000009497",
+  "version" : "1.1.0-SNAPSHOT.100200000009575",
   "description" : "Application descriptor for the data export application",
   "modules" : [ {
-    "id" : "mod-data-export-5.5.0-SNAPSHOT.2682",
+    "id" : "mod-data-export-5.5.0-SNAPSHOT.2687",
     "name" : "mod-data-export",
-    "version" : "5.5.0-SNAPSHOT.2682"
+    "version" : "5.5.0-SNAPSHOT.2687"
   } ],
   "uiModules" : [ {
     "id" : "folio_data-export-7.1.1099000000000329",
@@ -35,7 +35,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-data-export-5.5.0-SNAPSHOT.2682",
+    "id" : "mod-data-export-5.5.0-SNAPSHOT.2687",
     "name" : "Data Export Module",
     "requires" : [ {
       "id" : "source-storage-source-records",
@@ -440,8 +440,14 @@
       "subPermissions" : [ "data-export.export.post", "data-export.file-definitions.item.get", "data-export.file-definitions.item.post", "data-export.file-definitions.upload.post", "data-export.job-executions.collection.get", "data-export.job-executions.item.delete", "data-export.job-executions.items.download.get", "data-export.job-profiles.item.post", "data-export.job-profiles.collection.get", "data-export.job-profiles.item.get", "data-export.job-profiles.item.put", "data-export.job-profiles.item.delete", "data-export.mapping-profiles.item.post", "data-export.mapping-profiles.collection.get", "data-export.mapping-profiles.item.get", "data-export.mapping-profiles.item.put", "data-export.mapping-profiles.item.delete", "data-export.transformation-fields.collection.get", "data-export.expire-jobs.post", "data-export.logs.collection.get", "data-export.clean-up-files.post", "data-export.quick.export.post", "data-export.configuration.post", "data-export.export.all", "data-export.related-users.collection.get", "data-export.export-deleted.post", "data-export.export-authority-deleted.post", "data-export.download-record.item.get", "perms.users.get", "permissions.users.item.get", "data-export.job-profiles.item.lock.execute", "data-export.mapping-profiles.item.lock.execute" ],
       "visible" : false
     } ],
+    "metadata" : {
+      "user" : {
+        "type" : "system",
+        "permissions" : [ "base-url.item.get", "okapi.proxy.self.timers.patch" ]
+      }
+    },
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-data-export:5.5.0-SNAPSHOT.2682",
+      "dockerImage" : "folioci/mod-data-export:5.5.0-SNAPSHOT.2687",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
