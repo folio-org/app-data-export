@@ -1,12 +1,12 @@
 {
-  "id" : "app-data-export-1.0.4",
+  "id" : "app-data-export-1.0.5",
   "name" : "app-data-export",
-  "version" : "1.0.4",
+  "version" : "1.0.5",
   "description" : "Application descriptor for the data export application",
   "modules" : [ {
-    "id" : "mod-data-export-5.4.5",
+    "id" : "mod-data-export-5.4.6",
     "name" : "mod-data-export",
-    "version" : "5.4.5"
+    "version" : "5.4.6"
   } ],
   "uiModules" : [ {
     "id" : "folio_data-export-7.1.0",
@@ -35,7 +35,7 @@
     "preRelease" : "false"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-data-export-5.4.5",
+    "id" : "mod-data-export-5.4.6",
     "name" : "Data Export Module",
     "requires" : [ {
       "id" : "source-storage-source-records",
@@ -441,7 +441,7 @@
       "visible" : false
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/mod-data-export:5.4.5",
+      "dockerImage" : "folioorg/mod-data-export:5.4.6",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
